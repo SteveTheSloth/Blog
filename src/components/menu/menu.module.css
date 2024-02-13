@@ -1,0 +1,42 @@
+.link {
+  display: block;
+  font-size: x-large;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #2d9596;
+}
+
+@media only screen and (min-width: 769px) {
+  .menu {
+    display: none;
+    visibility: hidden;
+  }
+
+  .hidden {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    background-color: rgb(226, 236, 238);
+    position: absolute;
+    top: 86px;
+    width: max-content;
+    height: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 15px;
+    border-bottom: #265073 2px solid;
+    border-right: #265073 2px solid;
+  }
+
+  .hidden {
+    display: none;
+  }
+}

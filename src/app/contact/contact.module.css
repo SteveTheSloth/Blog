@@ -1,0 +1,11 @@
+.email {
+  display: block;
+  margin: auto;
+  width: max-content;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.email:hover {
+  color: #2d9596;
+}

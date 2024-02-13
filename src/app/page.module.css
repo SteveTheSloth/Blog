@@ -1,0 +1,8 @@
+.body {
+  min-height: 100vh;
+  background: url("../../public/japan.jpg") no-repeat center center;
+  background-attachment: fixed;
+  background-color: #265073;
+  max-width: 1920px;
+  margin: auto;
+}
